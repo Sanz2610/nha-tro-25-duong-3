@@ -1,0 +1,7 @@
+{
+  "name": "nha-tro-25-duong-3",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Trang hiển thị người đang trực của Nhà trọ 25 đường 3",
+  "scripts": { "test": "node --test tests/*.test.cjs" }
+}

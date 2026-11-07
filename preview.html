@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Thông tin người đang trực tại Nhà trọ 25 đường 3.">
+  <title>Nhà trọ 25 đường 3</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-mode="preview">
+  <aside class="preview-banner"><strong>Bản xem trước</strong> · Dữ liệu minh họa, không phải lịch trực thực tế.</aside>
+  <main class="page">
+    <header class="property">
+      <div class="property-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="m9 21 15-12 15 12v17a2 2 0 0 1-2 2H11a2 2 0 0 1-2-2V21Z"/><path d="M19 40V28h10v12M33 11v7"/></svg><span>25</span></div>
+      <h1>Nhà trọ 25 đường 3</h1>
+    </header>
+
+    <section class="duty-card" aria-labelledby="duty-label" aria-busy="true">
+      <div class="card-top"><span class="status" id="status"><span class="status-dot" aria-hidden="true"></span><span id="status-text">Đang kết nối</span></span><svg class="card-house" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3 10 9-7 9 7M5 9v11h14V9M10 20v-7h4v7"/></svg></div>
+      <div class="identity" aria-live="polite" aria-atomic="true">
+        <p class="eyebrow" id="duty-label">Người đang trực</p>
+        <h2 id="person-name">Đang tải thông tin</h2>
+        <p class="state-message" id="state-message">Chờ một chút để cập nhật ca trực hiện tại.</p>
+      </div>
+      <div class="shift-details" id="shift-details" hidden>
+        <div class="interval">
+          <div><p class="field-label">Bắt đầu</p><p class="shift-date" id="start-date"></p><p class="shift-time" id="start-time"></p></div>
+          <div class="interval-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14m-4-4 4 4-4 4"/></svg></div>
+          <div><p class="field-label">Kết thúc</p><p class="shift-date" id="end-date"></p><p class="shift-time" id="end-time"></p></div>
+        </div>
+        <div class="progress-track" role="progressbar" aria-label="Tiến độ ca trực" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="shift-progress"><span id="progress-fill"></span></div>
+        <div class="remaining"><span>Thời gian còn lại</span><strong id="remaining"></strong></div>
+      </div>
+      <div class="empty-decoration" id="empty-decoration" aria-hidden="true"><svg viewBox="0 0 80 48" fill="none"><path d="M18 39h44M28 38V19l12-9 12 9v19M36 38V27h8v11M23 22l17-13 17 13"/><path class="decoration-soft" d="M11 29v5m-2-2h4M65 12v6m-3-3h6"/></svg></div>
+    </section>
+
+    <div class="reassurance"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="14" cy="15" r="7"/><circle cx="14" cy="15" r="1.5"/><path d="m19 20 13 13m-5-5 3-3m-7-1 3-3M7 30v4m-2-2h4"/></svg><p>Có người trông coi,<br class="mobile-break"> thêm một chút yên tâm.</p></div>
+
+    <footer class="footer">
+      <div class="clock-line"><span class="clock-dot" aria-hidden="true"></span><time id="clock">--:--:--</time><span>Giờ Việt Nam</span></div>
+      <div class="sync-line"><span id="last-sync">Chưa đồng bộ</span><button id="refresh" type="button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16 8a6 6 0 1 0 .1 3M16 3v5h-5"/></svg><span>Làm mới</span></button></div>
+      <p class="footer-note" id="footer-note">Tự động cập nhật mỗi phút</p>
+    </footer>
+  </main>
+</body>
+</html>
